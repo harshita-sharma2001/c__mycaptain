@@ -1,0 +1,28 @@
+#include <stdio.h>
+    int main() {
+        int choice=3;
+        
+        printf("Plese Enter Your number:\n ");
+        scanf("%d", &choice);
+        switch (choice) {
+            case 1:
+                printf("item- Pizza.\n price- Rs 239");
+                break;
+            case 2:
+                printf("item- Burger.\n price- Rs 129");
+                break;
+            case 3:
+                printf("item- Passta.\n price- Rs 179");
+                break;
+            case 4:
+                printf("item- French Fries.\n price- Rs 99");
+                break;
+            case 5:
+                printf("item- Sandwich.\n price- Rs 149");
+                break;
+            default:
+                printf("NOT AVAILABLE");
+                break;
+        }
+        return 0;
+    }
